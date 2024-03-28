@@ -6,7 +6,11 @@ Packaged from https://git.zabbix.com/projects/ZT/repos/kubernetes-helm/browse be
 
 ## openebs-zfs-storageclasses
 
-Minimal chart that deploys storageclasses for openebs zfs-localpv for both containers and zvols.
+Minimal chart that deploys storageclasses for openebs zfs-localpv for both containers and zvols. [ghormoon/kube-charts](https://github.com/ghormoon/kube-charts).
+
+## metallb-l2advertisemet
+
+Minimal chart that deploys L@Advertisement for metallb. [ghormoon/kube-charts](https://github.com/ghormoon/kube-charts).
 
 ## tigera-operator
 
