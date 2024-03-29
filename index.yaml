@@ -3,7 +3,7 @@ entries:
   metallb:
   - apiVersion: v2
     appVersion: v0.14.4
-    created: "2024-03-28T05:25:49.622006631+01:00"
+    created: "2024-03-29T22:20:28.341189063+01:00"
     dependencies:
     - condition: crds.enabled
       name: crds
@@ -29,7 +29,7 @@ entries:
   metallb-l2advertisement:
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2024-03-28T05:25:49.623529836+01:00"
+    created: "2024-03-29T22:20:28.345728931+01:00"
     description: A Helm chart for deploying default L2Advertisement for metallb
     digest: b6024eee10886a04fa6c8d5913d7a26723c552572abfb109a5de0e44a128fa20
     name: metallb-l2advertisement
@@ -39,17 +39,17 @@ entries:
   openebs-zfs-storageclasses:
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2024-03-28T05:25:49.62564724+01:00"
+    created: "2024-03-29T22:20:28.348926619+01:00"
     description: A Helm chart for deploying StorageClasses with configurable pool
-      names.
-    digest: 226c39b7f85d2f0f96adb555d84910d740c3a2ccd792b027611d14f43b323e94
+      names and a default VolumeSnapshotClass
+    digest: 93ee0bcb77556deaaa88698c4466ea79445da15883d5998c8fbe09053b5ecc12
     name: openebs-zfs-storageclasses
     urls:
-    - openebs-zfs-storageclasses-0.0.3.tgz
-    version: 0.0.3
+    - openebs-zfs-storageclasses-0.0.4.tgz
+    version: 0.0.4
   tigera-operator:
   - apiVersion: v2
-    created: "2024-03-28T05:25:49.712898868+01:00"
+    created: "2024-03-29T22:20:28.417702291+01:00"
     description: Installs the Tigera operator for Calico
     digest: 3536290e656881313c2cd44b4df12e6c0cb3643a1f4dd9685e429eb30d64f7c3
     home: https://projectcalico.docs.tigera.io/about/about-calico
@@ -65,7 +65,7 @@ entries:
   zabbix-helm-chrt:
   - apiVersion: v2
     appVersion: trunk
-    created: "2024-03-28T05:25:49.770736573+01:00"
+    created: "2024-03-29T22:20:28.494346678+01:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -80,4 +80,4 @@ entries:
     urls:
     - zabbix-helm-chrt-1.3.3.tgz
     version: 1.3.3
-generated: "2024-03-28T05:25:49.559128559+01:00"
+generated: "2024-03-29T22:20:28.220205688+01:00"
