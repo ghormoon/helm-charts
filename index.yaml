@@ -3,7 +3,7 @@ entries:
   metallb:
   - apiVersion: v2
     appVersion: v0.14.4
-    created: "2024-04-02T12:51:16.75018471+02:00"
+    created: "2024-04-10T00:01:27.90039071+02:00"
     dependencies:
     - condition: crds.enabled
       name: crds
@@ -29,7 +29,7 @@ entries:
   metallb-l2advertisement:
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2024-04-02T12:51:16.751547262+02:00"
+    created: "2024-04-10T00:01:27.901919093+02:00"
     description: A Helm chart for deploying default L2Advertisement for metallb
     digest: b6024eee10886a04fa6c8d5913d7a26723c552572abfb109a5de0e44a128fa20
     name: metallb-l2advertisement
@@ -39,17 +39,17 @@ entries:
   openebs-zfs-storageclasses:
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2024-04-02T12:51:16.753739802+02:00"
+    created: "2024-04-10T00:01:27.904261173+02:00"
     description: A Helm chart for deploying StorageClasses with configurable pool
       names and a default VolumeSnapshotClass
-    digest: ff3754f7dd70b1f03d1e40f7ea6311c6f10efa446fa405d62c2c75ed134f6d4b
+    digest: e85b3d29eabb785b3639fc95f90a5279bebc52d3cf85a91eacce22033b9794d1
     name: openebs-zfs-storageclasses
     urls:
-    - openebs-zfs-storageclasses-0.0.5.tgz
-    version: 0.0.5
+    - openebs-zfs-storageclasses-0.0.6.tgz
+    version: 0.0.6
   tigera-operator:
   - apiVersion: v2
-    created: "2024-04-02T12:51:16.809756745+02:00"
+    created: "2024-04-10T00:01:27.956814024+02:00"
     description: Installs the Tigera operator for Calico
     digest: 3536290e656881313c2cd44b4df12e6c0cb3643a1f4dd9685e429eb30d64f7c3
     home: https://projectcalico.docs.tigera.io/about/about-calico
@@ -65,7 +65,7 @@ entries:
   zabbix-helm-chrt:
   - apiVersion: v2
     appVersion: trunk
-    created: "2024-04-02T12:51:16.872153483+02:00"
+    created: "2024-04-10T00:01:28.022706305+02:00"
     dependencies:
     - condition: kube-state-metrics.enabled
       name: kube-state-metrics
@@ -80,4 +80,4 @@ entries:
     urls:
     - zabbix-helm-chrt-1.3.3.tgz
     version: 1.3.3
-generated: "2024-04-02T12:51:16.687031354+02:00"
+generated: "2024-04-10T00:01:27.848599849+02:00"
