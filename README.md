@@ -12,10 +12,6 @@ Minimal chart that deploys storageclasses for openebs zfs-localpv for both conta
 
 Minimal chart that deploys L@Advertisement for metallb. [ghormoon/kube-charts](https://github.com/ghormoon/kube-charts).
 
-## tigera-operator
-
-packaged master while waiting for 3.27.3 release. will be deleted when upstream repo has fixed version, as 3.27.2 doesn't work for me
-
 ## cert-manager-letsencrypt
 
 Packaging v0.1.2 until a MR for ingressClass is merged.
