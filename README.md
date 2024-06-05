@@ -16,6 +16,3 @@ Minimal chart that deploys L@Advertisement for metallb. [ghormoon/kube-charts](h
 
 packaged master while waiting for 3.27.3 release. will be deleted when upstream repo has fixed version, as 3.27.2 doesn't work for me
 
-## metallb
-
-packaged v0.14.4 because it's not in their repo yet
